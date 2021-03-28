@@ -36,7 +36,6 @@ client.connect(err => {
 
   app.get('/',(req,res)=>{
       res.send("working successfully!!!");
-    })
   })
 
   app.get('/product/:key',(req,res)=>{
